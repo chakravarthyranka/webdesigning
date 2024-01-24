@@ -1,0 +1,114 @@
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(WoodLite.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.ContactForm{
+    width: 650px;
+    height: 550px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.ContactForm h2{
+    width: 600px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    }
+
+    .txtinput{
+        width: 650px;
+        height: 35px;
+        background: transparent ;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+
+    }
+
+    .ContactForm textarea{
+        width: 650px;
+        height: 70px;
+        background: transparent ;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+
+    }
+
+
+    .ContactForm input:focus
+    {
+        outline: none
+    }
+
+    ::placeholder{
+        color: #fff;
+        font-family: arial;
+    }
+
+    .ContactUsBtn{
+        width: 650px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        transition: .4s ease;
+    }
+
+    .ContactUsBtn:hover{
+        background: #fff;
+        color: #ff7200;
+    }
+
+    .ContactUsBtn a{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .ContactForm fieldset
+    {
+     width: 500px;
+     padding: 20px;
+     margin-top: 20px;
+    }
+   
+    
+    .ContactForm label{
+        text-align: left;
+        text-decoration: none;
+        color: #ff7200;
+        font-weight: bold;
+        font-size: large;
+
+    }
